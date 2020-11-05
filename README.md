@@ -2,13 +2,13 @@ Build will pull source from https://github.com/yrutschle/sslh.git<br>
 <br>
 Make an env file with several parameters.<br>
 Example:<br>
-SSH_HOST=192.168.1.6<br>
+SSH_HOST=localhost<br>
 SSH_POST=22<br>
-HTTPS_HOST=192.168.1.6<br>
+HTTPS_HOST=localhost<br>
 HTTPS_PORT=443<br>
-HTTP_HOST=192.168.1.20<br>
+HTTP_HOST=localhost<br>
 HTTP_PORT=8005<br>
-OTHER_HOST=192.168.1.6<br>
+OTHER_HOST=localhost<br>
 OTHER_PORT=80<br>
 <br>
 Run with:<br>
