@@ -24,5 +24,5 @@ ENV OTHER_PORT 443
 RUN apk add --no-cache libconfig pcre 
 COPY --from=builder /build/sslh-select /usr/local/bin/sslh
 ADD entry.sh /usr/local/bin/entry.sh
-RUN chmod +x /usr/local/bin/entry.sh
+RUN chmod 700 /usr/local/bin/entry.sh
 ENTRYPOINT ["/usr/local/bin/entry.sh"]
